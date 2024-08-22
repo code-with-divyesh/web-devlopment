@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form tag</title>
+  </head>
+  <body>
+    <!-- form tag -->
+
+    <form action="post">
+      <h1>input text</h1>
+      <label for="username"> Enter the username</label>
+      <input
+        type="text"
+        name="username "
+        id="username"
+        placeholder="Enter your username"
+      />
+
+      <div>
+        <h1>input radio</h1>
+        <label for="male">male</label>
+        <input type="radio" name="gender " id="male" />
+        <label for="female">female</label>
+        <input type="radio" name="gender " id="female" />
+      </div>
+
+      <div>
+        <h1>input checkbox</h1>
+        <input type="checkbox" name="yes" id="yes" />
+        <label for="yes">yes</label>
+        <input type="checkbox" name="no" id="no" />
+        <label for="yes">no</label>
+      </div>
+
+      <div>
+        <h1>Textarea</h1>
+        <label for="comments">Enter your comments</label><br />
+        <textarea
+          name="comments"
+          id="comments"
+          rows="4"
+          cols="50"
+          placeholder="Enter your comments here"
+        ></textarea>
+      </div>
+      <div>
+        <h1>select</h1>
+        <select name="Fruits">
+          <option value="Apple">Apple</option>
+          <option value="banana">banana</option>
+          <option value="pineple  ">pineple</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
