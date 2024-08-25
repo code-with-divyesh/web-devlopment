@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      /* Element Selector */
+      div {
+        background-color: blue;
+      }
+      /* Class Selector */
+
+      .c1 {
+        background-color: green;
+      }
+
+      /* id Selector */
+
+      #i1 {
+        background-color: greenyellow;
+      }
+      /* universal selector */
+
+      * {
+        margin: 5;
+        padding: 25;
+      }
+
+      /* pseduo selector */
+      a:visited {
+        color: brown;
+      }
+      div:hover {
+        color: rgb(87, 130, 45);
+      }
+      a:active {
+        background-color: red;
+      }
+
+      /* child selector */
+
+      div > p {
+        color: rgb(30, 32, 32);
+      }
+      p:first-child {
+        background-color: blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <div>i am div</div>
+    <div class="c1">i am div2</div>
+    <div id="i1">i am Div3</div>
+    <a href="https://www.google.com">Google web page </a>
+    <div>
+      <p>i am para1</p>
+      <p>i am para2</p>
+    </div>
+  </body>
+</html>
