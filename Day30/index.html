@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition</title>
+    <style>
+      .container {
+        width: 50vw;
+        height: 40vh;
+        background-color: greenyellow;
+      }
+      .box {
+        width: 5vw;
+        height: 4vh;
+        background-color: hotpink;
+        animation: Divyesh 2s ease-in 3s, Divyesh2 3s ease-in-out 4s;
+      }
+      @keyframes Divyesh {
+        from {
+          background-color: aqua;
+        }
+        to {
+          background-color: green;
+        }
+      }
+      @keyframes Divyesh2 {
+        0% {
+          transform: rotate(100deg);
+        }
+        10% {
+          transform: rotate(200deg);
+        }
+        20% {
+          transform: rotate(300deg);
+        }
+        30% {
+          transform: rotate(410deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box translate"></div>
+    </div>
+  </body>
+</html>
