@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+}
+.logo img {
+  width: 164px;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  /* padding: 10px 250px;
+  align-items: center;
+  border-bottom: 1px solid black; */
+  justify-content: space-around;
+  align-items: center;
+}
+.right ul {
+  display: flex;
+  gap: 34px;
+}
+.right ul li {
+  list-style: none;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  margin: 70px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.first span {
+  padding-left: 7px;
+  font-size: 28px;
+}
+.first span img {
+  width: 82px;
+  margin: 0 23px;
+}
+p {
+  font-size: 24px;
+  width: 65vw;
+  text-align: center;
+  font-weight: 500;
+}
+.btn {
+  border-radius: 6px;
+  background-color: #00b6d1;
+  padding: 14px 16px;
+  color: white;
+  border: none;
+  /* width: 16vw; */
+  font-weight: 700;
+  margin: 12px 0;
+  cursor: pointer;
+}
+.sec {
+  max-width: 66vw;
+  margin: auto;
+}
+.green {
+  background-color: #5cb85c;
+}
+.item {
+  padding: 23px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.item-lang {
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 36px;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+.Download img {
+  padding: 0px 15px;
+  width: 40px;
+}
+.text {
+  font-size: 23px;
+}
+.Download {
+  display: flex;
+  /* justify-content: center; */
+
+  align-items: center;
+  gap: 10px;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 1145px) {
+  .grid {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
