@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>object-fit and object-cover</title>
+    <style>
+      .container {
+        width: 488px;
+        height: 488px;
+        border: 2px solid black;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlrZqTCInyg6RfYC7Ape20o-EWP1EN_A8fOA&s");
+        background-repeat: no-repeat;
+        background-position: top right;
+      }
+      img {
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
+        /* object-position: top right; */
+        /* object-fit: contain; */
+        /* object-fit: fill; */
+        object-fit: scale-down;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoRGyXmHy_6aIgXYqWHdOT3KjfmnuSyxypw&s"
+        alt=""
+      /> -->
+    </div>
+  </body>
+</html>
